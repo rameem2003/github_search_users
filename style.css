@@ -140,3 +140,23 @@ body{
     margin: 0 20px;
     margin-top: 30px;
 }
+
+
+/* responsive */
+
+@media screen and (max-width: 500px) {
+    #wrapper{
+        width: 350px;
+        flex-direction: column;
+    }
+
+    #wrapper input{
+        text-align: center;
+    }
+
+    #profile_ui{
+        width: 350px;
+    }
+}
+
+/* responsive end */
