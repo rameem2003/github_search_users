@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github All Accounts</title>
+
+    <!-- local css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!-- font awewsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="wrapper">
+        <input type="text" name="" id="user_name" placeholder="Enter github username: ">
+        <button id="search">Search</button>
+    </div>
+
+    <div id="profile_ui">
+        <div class="avatar_section">
+            <div class="avatar" id="avatar"></div>
+            <div class="active_state"></div>
+            
+        </div>
+
+        <div class="name">
+            <h1 id="github_name"><b><i></i></b></h1>
+            <h2 id="bio"></h2>
+
+            <p id="location"> </p>
+        </div>
+
+        <div class="follow">
+            <div class="tag" id="followers"></div>
+            <div class="tag" id="following"></div>
+        </div>
+    </div>
+
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>

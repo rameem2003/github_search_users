@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: skyblue;
+    flex-direction: column;
+}
+
+
+#wrapper{
+    background-color: black;
+    padding: 10px;
+    width: 550px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+}
+
+#wrapper input::placeholder{
+    color: white;
+}
+
+
+#wrapper button{
+    width: 30%;
+    height: 50px;
+    background-color: blue;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+
+}
+
+
+#profile_ui{
+    width: 550px;
+    padding: 20px;
+    background-color: rgb(37, 37, 138);
+    color: white;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+}
+
+#profile_ui.active{
+    display: initial;
+}
+
+#profile_ui .avatar_section{
+    position: relative;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+#profile_ui .avatar_section .avatar{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+    border: 8px solid aqua;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile_ui .avatar_section .active_state{
+    position: absolute;
+    top: 73%;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(4, 255, 4);
+    border-radius: 50%;
+    border: 4px solid aqua;
+    
+}
+
+#profile_ui .avatar_section .avatar img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#profile_ui .name h1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#profile_ui .name h2{
+    font-size: 15px;
+}
+
+#profile_ui .name p{
+    font-size: 30px;
+}
+
+#profile_ui .follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile_ui .follow .tag{
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 0 20px;
+    margin-top: 30px;
+}
